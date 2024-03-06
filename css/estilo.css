@@ -1,0 +1,166 @@
+
+body {
+    background-color: #202122;
+    font-family: "Montserrat", sans-serif ;
+}
+
+
+h1 {
+    font-size: 60px;
+  }
+
+  h4{
+    font-size: 34px;
+  }
+
+  h2{
+    font-size: 34px;
+  }
+
+
+.subtitulo {
+    font-size: 1.875rem; 
+    margin: 5vh 20vh;
+}
+
+
+
+.main, .mid1, .mid2, .mid3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    
+}
+
+.main{
+    background-image: url("/img/img3.jpg");
+    padding: 150px;
+    color: #000000;
+}
+
+.mid1{
+    padding: 50px;
+}
+
+.mid3{
+    padding: 50px;
+    margin-bottom: 30px;
+}
+.contenido {
+    text-align: center;
+    padding: 20px;
+}
+
+.caja {
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.mid2 {
+    background: linear-gradient(to right, rgb(123, 5, 128), rgb(17, 3, 16));
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.c6{
+    text-align: center;
+    padding: 20px;
+}
+
+.c2, .c3, .c4, .c5 {
+    width: calc(50% - 20px);
+    border: 1px solid #161616;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: #272727;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li.lista1 p{
+    font-size: 24px;
+}
+
+div.contenido7{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+div.contenido7 p{
+    font-size: 24px;
+}
+div.contenido7 h2{
+    font-size: 34px;
+}
+
+
+.lista1{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+}
+.lista1 .h4{
+    margin-bottom: 20px;
+}
+
+.lista1 .sub-header{
+    font: 20px;
+}
+
+.lista1 p h4{
+    font-size: 20vw;
+}
+
+.listas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.lista2 {
+    width: calc(50% - 20px); /* Ancho del item, ajustar según tus necesidades */
+    margin: 10px;
+    background-color: #272727; /* Color de fondo del item */
+    border-radius: 8px;
+    padding: 20px;
+    list-style: none;
+}
+
+.lista2 .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.lista2 .header .icon {
+    margin-right: 10px;
+}
+
+.lista2 h4 {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.lista2 .sub-header {
+    margin-bottom: 10px;
+}
+
+.lista2 .cta {
+    text-align: center;
+}
+
+
+ul.listas3{
+    padding-inline-start: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}

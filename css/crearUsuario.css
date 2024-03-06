@@ -1,0 +1,68 @@
+.cont-img {
+  height: 148vh;
+  background-image: url('/img/fondologin3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 39px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 76px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: white; /* Ajusta el color del texto según sea necesario */
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.campo {
+  margin-bottom: 20px;
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: white; /* Ajusta el color del texto según sea necesario */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+}
+
+button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="reset"] {
+  background-color: gray; /* Cambia el color del botón Limpiar según sea necesario */
+}
+
+button:hover {
+  background-color: #0056b3;
+}

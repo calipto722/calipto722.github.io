@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Establece que el cuerpo de la página ocupe al menos el 100% de la altura de la ventana del navegador */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+  }
+  * {
+    font-family: "Montserrat", sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    padding: 0px 29px;
+  }
+  
+  .menu ul li:last-child {
+    margin-right: 10px;
+  }
+  
+  .menu ul li a {
+    text-shadow: 1px 1px 25px greenyellow;
+    color: rgba(255, 255, 255, 0.751);
+    text-decoration: none;
+  }
+  
+  .menu ul li a:hover {
+    color:  #ffcc00;
+  }
+  
+  .login, .logout {
+    background-color: #ff9900;
+    color: #333;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .logout {
+    padding: 8px 4px;
+  }
+  .login:hover, .logout:hover {
+    background-color: #ffcc00;
+  }
+  
+  /* Ajustes para los botones de login y logout */
+  .nav-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login {
+    margin-right: 40px; /* Ajusta el espaciado entre los botones */
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.59);
+    position: fixed;
+    width: 100%;  
+  }
+  
+  footer {
+    background-color: rgba(0, 0, 0, 0.59);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    margin-top: auto;
+  }
+  
+  .activo {
+    background-color: gray;
+  }
+  
+  .parrafo {
+    position: relative;
+    top: 20%;
+    margin-right: 30px;
+  }
+  

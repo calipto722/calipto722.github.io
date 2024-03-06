@@ -1,0 +1,162 @@
+*{
+    font-family: "Montserrat", sans-serif; 
+}
+body{
+    height: 250vh;
+    background-color: (0, 0, 0, 0.5);
+}
+/* SECCION IA*/
+.ia{   /* ocupa las dos*/
+    height: 100vh;
+    padding: 10px;
+}  
+.ia h3{
+        position: absolute;
+        padding-top: 100px; /* Ajusta el valor según sea necesario */
+    }
+.ia1{
+    height: 30vh;
+    width: 100%;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.ia1 h1{
+        font-weight: bold;
+        font-size: 45px; 
+    }
+
+.ia1-Interno{
+    width: 80%;
+    display: flex;
+
+}
+.ia1-Texto{
+    width: 60%;
+    display: inline-block;
+}
+.ia1-Img{
+    width: 40%;
+    /*para incluir el relleno y el borde dentro del ancho y alto del elemento.*/
+    border: 5px solid white;
+    margin-bottom: 15px;
+}
+
+.ia2{   /**/
+    height: 55vh;
+    width: 110vh;
+    margin-top: 100px;
+    margin-left: 250px;
+    background-color: white;
+    border-radius: 30px;
+}
+  
+.ia2 h2{
+        font-weight: bold;
+        font-size: 40px; 
+    }
+
+.ia2-Interno{
+    display: flex;
+}
+.ia2-Img{
+    padding-top: 20px;
+    width: 40%;
+   
+    display: inline-block;
+
+}
+.ia2-Texto{
+    width: 60%;
+    text-align: left;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.cd{ /* CIENCIA DE DATOS*/
+    height: 75vh;
+    padding-top: 50px;
+    width: 90%;
+    margin-top: 170px;
+}
+.cd   h4{
+    font-size: 30px;
+}  
+.cd h2{
+        padding: 40px;
+    }
+  
+
+.cd h3{
+    padding-top: 10px;
+    font-size: 20px; 
+    position: absolute;
+}
+.cd1-Interno{
+    height: 100%;
+    display: flex;
+    font-weight: bold; 
+   
+    font-size: 25px;
+
+}
+.promo{
+    padding-top: 15px;
+    background-color: whitesmoke;
+    color: black;
+    padding-bottom: 15px;
+    
+}
+.promo-Interno{
+    background-color: rgb(50, 164, 218);
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+table{
+    padding-top: 250px;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 400px;
+    justify-content: center;
+
+}
+th,td{
+    border: 5px solid white;
+    text-align: left;
+    padding: 8px;
+}
+.clientes{
+    background-color: white;
+    color:black;
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.ci{
+    background: linear-gradient(to right, rgb(123, 5, 128), rgb(17, 3, 16));
+    display: flex;
+    flex-direction: column;
+   
+}
+.ci h3{
+    color: black;
+    padding: 30px;
+}
+.cliente {
+    display: flex;
+    justify-items: center;
+    align-items: baseline;
+    justify-content: space-evenly;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
