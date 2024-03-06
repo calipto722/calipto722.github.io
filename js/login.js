@@ -33,7 +33,7 @@ function validar() {
   // Guardar los cambios en localStorage
   localStorage.setItem("user", JSON.stringify(usr));
 
-  return texerroruser;
+  return true;
 
 } catch (error) {
   texerroruser.innerHTML = "CREAR USUARIO";
