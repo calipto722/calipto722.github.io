@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="shortcut icon" href="img/iconocodear.png
+    ">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/general.css">
+    <script src="js/header.js" defer></script>
+    <script src="js/footer.js" defer></script>
+    <script src="js/contacto.js" defer></script>
+</head>
+<body>
+    <header id="header"></header>
+    <div class="cont-img">
+        <div class="contenedor">
+            <h1>Contacto</h1>
+            <div class="contenedor-interno" >
+                
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                    
+                    <button type="button" onclick="validacion()">Enviar Mensaje</button>
+                    
+            </div>
+            <p id="texErrorNombre" class="error"></p>
+            <p id="texErrorEmail" class="error"></p>
+            <p id="texErrorMensaje" class="error"></p>
+        </div>
+    </div>
+</body>
+</html>
